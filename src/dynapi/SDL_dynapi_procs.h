@@ -981,3 +981,8 @@ SDL_DYNAPI_PROC(void,SDL_GDKSuspendComplete,(void),(),)
 #endif
 SDL_DYNAPI_PROC(SDL_bool,SDL_HasWindowSurface,(SDL_Window *a),(a),return)
 SDL_DYNAPI_PROC(int,SDL_DestroyWindowSurface,(SDL_Window *a),(a),return)
+SDL_DYNAPI_PROC(void*,SDL_EGL_GetProcAddress,(const char *a),(a),return)
+SDL_DYNAPI_PROC(SDL_EGLDisplay,SDL_EGL_GetCurrentEGLDisplay,(void),(),return)
+SDL_DYNAPI_PROC(SDL_EGLConfig,SDL_EGL_GetCurrentEGLConfig,(void),(),return)
+SDL_DYNAPI_PROC(SDL_EGLSurface,SDL_EGL_GetWindowEGLSurface,(SDL_Window *a),(a),return)
+SDL_DYNAPI_PROC(void,SDL_EGL_SetEGLAttributeCallbacks,(SDL_EGLAttribArrayCallback a, SDL_EGLIntArrayCallback b, SDL_EGLIntArrayCallback c),(a,b,c),)

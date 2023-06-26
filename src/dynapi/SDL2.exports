@@ -870,3 +870,8 @@
 # ++'_SDL_GDKSuspendComplete'.'SDL2.dll'.'SDL_GDKSuspendComplete'
 ++'_SDL_HasWindowSurface'.'SDL2.dll'.'SDL_HasWindowSurface'
 ++'_SDL_DestroyWindowSurface'.'SDL2.dll'.'SDL_DestroyWindowSurface'
+++'_SDL_EGL_GetProcAddress'.'SDL2.dll'.'SDL_EGL_GetProcAddress'
+++'_SDL_EGL_GetCurrentEGLDisplay'.'SDL2.dll'.'SDL_EGL_GetCurrentEGLDisplay'
+++'_SDL_EGL_GetCurrentEGLConfig'.'SDL2.dll'.'SDL_EGL_GetCurrentEGLConfig'
+++'_SDL_EGL_GetWindowEGLSurface'.'SDL2.dll'.'SDL_EGL_GetWindowEGLSurface'
+++'_SDL_EGL_SetEGLAttributeCallbacks'.'SDL2.dll'.'SDL_EGL_SetEGLAttributeCallbacks'
